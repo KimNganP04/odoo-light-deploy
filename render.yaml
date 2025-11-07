@@ -1,9 +1,9 @@
-services: 
-  - type: web 
-    name: odoo-online 
-    env: docker 
-    plan: free 
-    dockerfilePath: ./Dockerfile 
-    envVars: 
-      - key: PORT 
-        value: 10000 
+services:
+  - type: web
+    name: odoo-online
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 8069
