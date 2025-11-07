@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: odoo-online
+    name: odoo-final
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
